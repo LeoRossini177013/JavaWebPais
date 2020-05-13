@@ -16,7 +16,7 @@
 <body>
     <%Pais pais =(Pais)request.getAttribute("pais"); %>
         <!-- Barra superior com os menus de navegação -->
-
+		<c:import url="Menu.jsp"/>
         <!-- Container Principal -->
         <div id="main" class="container">
             <h3 class="page-header">Visualizar Pais#<%=pais.getId() %></h3>
@@ -25,7 +25,7 @@
                     <p><strong>Nome</strong>
                     </p>
                     <p>
-                        <%=pais.getNome() %>
+                        ${pais.nome}
                     </p>
                 </div>
             </div>
@@ -34,14 +34,14 @@
                     <p><strong>Area</strong>
                     </p>
                     <p>
-                        <%=pais.getArea() %>
+                        ${pais.area}
                     </p>
                 </div>
                 <div class="col-md-6">
                     <p><strong>populacao</strong>
                     </p>
                     <p>
-                        <%=pais.getPopulacao() %>
+                        ${pais.populacao}
                     </p>
                 </div>
             </div>
