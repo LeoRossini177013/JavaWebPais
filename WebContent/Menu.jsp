@@ -9,11 +9,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.jsp">Cadastro</a>
+                <a class="navbar-brand" href="index.jsp">cerveja.biz</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.jsp">Paises</a>
+                    <li><a href="ListarPaises.do?acao=reiniciar">Paises</a>
+                    </li>
+                    <li><a href="#">Marcas</a>
+                    </li>
+                    <li><a href="#">Estilos</a>
+                    </li>
+                    <li><a href="#">Clientes</a>
                     </li>
                 </ul>
             </div>
